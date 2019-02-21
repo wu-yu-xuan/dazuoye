@@ -1,7 +1,7 @@
 .container {
   display: flex;
-  width: 1308px;
-  height: 8012px;
+  width: 1408px;
+  height: 4512px;
   margin: 0px;
   flex-direction: column;
 }
@@ -9,8 +9,8 @@
 
 .header {
   display: flex;
-  width: 1308px;
-  height: 170px;
+  width: 1408px;
+  height: 200px;
   flex-direction: column;
   background-image: url(../image/fhx.png);
   background-repeat: no-repeat;
@@ -327,6 +327,7 @@ a {
   left: 214px;
   position: absolute;
   margin-top: 0px;
+  font-family: 微软雅黑;
 
 }
 
@@ -491,6 +492,7 @@ a.start:hover {
 
 .living-next {
   cursor: pointer;
+  font-size: 12px;
 }
 
 .living-next:hover {
@@ -501,7 +503,7 @@ a.start:hover {
 
   width: 710px;
   height: 280px;
-  margin-top: 20px;
+  margin-top: 30px;
 }
 
 .nowliving-first {
@@ -703,6 +705,7 @@ a.start:hover {
 
 
 .cartoon-header-1 {
+  font-family: 微软雅黑;
   font-size: 25px;
   position: relative;
   left: 60px;
@@ -934,7 +937,8 @@ a.four4:hover,
 }
 
 .header-8-container {
-  opacity: 0;
+
+  transition: .3s;
   width: 260px;
   height: 310px;
   position: absolute;
@@ -968,7 +972,7 @@ a.four4:hover,
 }
 
 .drama-header1 {
-
+  font-family: 微软雅黑;
   position: relative;
   left: 60px;
   font-size: 24px;
@@ -1035,21 +1039,23 @@ a.four4:hover,
   flex-direction: column;
 
 }
-.wyyyyyyy{
-  width:650px;
-  height:420px;
+
+.wyyyyyyy {
+  width: 650px;
+  height: 420px;
 }
-.drama-content-1_1{
+
+.drama-content-1_1 {
   width: 700px;
   height: 100px;
-  display:flex;
+  display: flex;
   justify-content: space-between;
 }
 
 .drama-a {
   width: 200px;
   height: 100px;
- display:flex;
+  display: flex;
 }
 
 .drama-a-1 {
@@ -1084,16 +1090,17 @@ a.four4:hover,
   position: relative;
   margin-top: 30px;
   font-size: 12px;
-  display:flex;
-  color:gray;
+  display: flex;
+  color: gray;
 }
-.fourlive{
-  background-color:palevioletred;
-  color:white;
-  width:40px;
-  height:18px;
+
+.fourlive {
+  background-color: palevioletred;
+  color: white;
+  width: 40px;
+  height: 18px;
   text-align: center;
-  border-radius:9px;
+  border-radius: 9px;
 }
 
 .drama-content-2 {
@@ -1109,5 +1116,22 @@ a.four4:hover,
 .button-more-2 {
   width: 260px;
   cursor: pointer;
+
+}
+
+.living-next-a {
+  font-family: 微软雅黑;
+  font-size: 16px;
+}
+
+.drama-move {
+  width: 330px;
+  height: 280px;
+  background-image: url(../image/drama-move.jpg);
+  position: absolute;
+  top: 2080px;
+  left: 900px;
+  background-size: 100% 100%;
+  border-radius: 5px;
 
 }
